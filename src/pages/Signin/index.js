@@ -31,11 +31,11 @@ const Signin = () => {
 
   return (
     <C.Container>
-      <C.Label>SISTEMA DE LOGIN</C.Label>
+      <C.Label>Sistema de Login</C.Label>
       <C.Content>
         <Input
           type="email"
-          placeholder="Digite seu E-mail"
+          placeholder="Digite seu Email"
           value={email}
           onChange={(e) => [setEmail(e.target.value), setError("")]}
         />
@@ -50,7 +50,7 @@ const Signin = () => {
         <C.LabelSignup>
           Não tem uma conta?
           <C.Strong>
-            <Link to="/signup">&nbsp;Registre-se</Link>
+            <Link to="/signup">&nbsp;Cadastre-se Agora</Link>
           </C.Strong>
         </C.LabelSignup>
       </C.Content>
